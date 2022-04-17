@@ -1,0 +1,16 @@
+;vampireName
+0,this is a comment and should not appear in results
+1,[vampireTitle] [vampireNamePart]
+
+;vampireTitle
+0,this is a comment and should not appear in results
+1,Count
+1,Archduke
+
+;vampireNamePart
+0,this is a comment and should not appear in results
+1,Raven
+1,Corvid
+1,Fang
+1,Dracul
+1,[vampireNamePart]

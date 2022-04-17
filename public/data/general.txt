@@ -1,0 +1,3278 @@
+;genericOracle
+6,a premise is wrong
+3, no, and
+10, no
+3, no, but
+3, yes, but
+10, yes
+3, yes, and
+
+;genericAugury
+1,weal
+1,woe
+1,weal & woe
+1,results unclear
+
+;letterLowercase
+1,a
+1,b
+1,c
+1,d
+1,e
+1,f
+1,g
+1,h
+1,i
+1,j
+1,k
+1,l
+1,m
+1,n
+1,o
+1,p
+1,q
+1,r
+1,s
+1,t
+1,u
+1,v
+1,w
+1,x
+1,y
+1,z
+
+;letterUppercase
+1,A
+1,B
+1,C
+1,D
+1,E
+1,F
+1,G
+1,H
+1,I
+1,J
+1,K
+1,L
+1,M
+1,N
+1,O
+1,P
+1,Q
+1,R
+1,S
+1,T
+1,U
+1,V
+1,W
+1,X
+1,Y
+1,Z
+
+;letterUppercaseWeighted
+21,A
+17,B
+22,C
+16,D
+14,E
+13,F
+13,G
+15,H
+14,I
+6,J
+7,K
+13,L
+18,M
+13,N
+14,O
+25,P
+5,Q
+15,R
+24,S
+14,T
+14,U
+4,V
+4,W
+1,X
+1,Y
+2,Z
+
+;letterLowercaseWeighted
+21,a
+17,b
+22,c
+16,d
+14,e
+13,f
+13,g
+15,h
+14,i
+6,j
+7,k
+13,l
+18,m
+13,n
+14,o
+25,p
+5,q
+15,r
+24,s
+14,t
+14,u
+4,v
+4,w
+1,x
+1,y
+2,z
+
+;greekLetterName
+1,alpha
+1,beta
+1,gamma
+1,delta
+1,epsilon
+1,digamma
+1,zeta
+1,eta
+1,theta
+1,iota
+1,kappa
+1,lamda
+1,mu
+1,nu
+1,xi
+1,omicron
+1,pi
+1,san
+1,qoppa
+1,rho
+1,sigma
+1,tau
+1,upsilon
+1,phi
+1,chi
+1,psi
+1,omega
+
+;greekLetterLowercase
+1,α
+1,β
+1,γ
+1,δ
+1,ε
+1,ζ
+1,η
+1,θ
+1,ϑ
+1,ι
+1,κ
+1,λ
+1,μ
+1,ν
+1,ξ
+1,ο
+1,π
+1,ϖ
+1,ρ
+1,ς
+1,σ
+1,τ
+1,υ
+1,ϒ
+1,φ
+1,χ
+1,ψ
+1,ω
+
+;greekLetterUppercase
+1,Α
+1,Β
+1,Γ
+1,Δ
+1,Ε
+1,Ζ
+1,Η
+1,Θ
+1,Ι
+1,Κ
+1,Λ
+1,Μ
+1,Ν
+1,Ξ
+1,Ο
+1,Π
+1,Ρ
+1,Σ
+1,Τ
+1,Υ
+1,Φ
+1,Χ
+1,Ψ
+1,Ω
+
+;yesNo
+1,yes
+1,no
+
+;flip
+1,heads
+1,tails
+
+;trueFalse
+1,true
+1,false
+
+;rumourTruth
+1,true
+1,false
+1,partly true
+1,true but misleading
+1,false, but with a hint of truth
+1,false, and it's a trap
+
+;direction
+1,[directionCardinal]
+1,[directionSecondary]
+1,[directionTertiary]
+
+;directionCardinal
+1,east
+1,south
+1,west
+1,north
+
+;directionSecondary
+1,north-east
+1,south-east
+1,south-west
+1,north-west
+
+;directionTertiary
+1,north-by-north[eastWest]
+1,south-by-south[eastWest]
+1,east-by-east[northSouth]
+1,west-by-west[northSouth]
+
+;directionHexFlat
+1,north
+1,north-east
+1,south-east
+1,south
+1,south-west
+1,north-west
+
+;directionHexVert
+1,north-east
+1,east
+1,south-east
+1,south-west
+1,west
+1,north-west
+
+;northSouth
+1,north
+1,south
+
+;eastWest
+1,east
+1,west
+
+;leftRight
+1,left
+1,right
+
+;upDown
+1,up
+1,down
+
+;frontBack
+1,front
+1,back
+
+;directonRelative
+1,front
+1,back
+1,left
+1,right
+
+;cardSuit
+1,♥
+1,♠
+1,♦
+1,♣
+
+;cardRank
+1,A
+1,2
+1,3
+1,4
+1,5
+1,6
+1,7
+1,8
+1,9
+1,10
+1,J
+1,Q
+1,K
+
+;card
+1,[cardRank][cardSuit]
+
+;majorArcana
+1,The Magician
+1,The High Priestess
+1,The Empress
+1,The Emperor
+1,The Hierophant
+1,The Lovers
+1,The Chariot
+1,Strength
+1,The Hermit
+1,Wheel of Fortune
+1,Justice
+1,The Hanged Man
+1,Death
+1,Temperance
+1,The Devil
+1,The Tower
+1,The Star
+1,The Moon
+1,The Sun
+1,Judgement
+1,The World
+1,The Fool
+
+;minorArcanaSuit
+1,Swords
+1,Wands
+1,Coins
+1,Cups
+
+;minorArcanaRank
+1,Ace
+1,Two
+1,Three
+1,Four
+1,Five
+1,Six
+1,Seven
+1,Eight
+1,Nine
+1,Ten
+1,Page
+1,Knight
+1,Queen
+1,King
+
+;minorArcana
+1,[minorArcanaRank] of [minorArcanaSuit]
+
+;tarotCard
+11,[majorArcana]
+28,[minorArcana]
+
+;ampm
+1,AM
+1,PM
+
+;clockHour
+1,1
+1,2
+1,3
+1,4
+1,5
+1,6
+1,7
+1,8
+1,9
+1,10
+1,11
+1,12
+
+;clockMinute
+1,00
+1,15
+1,30
+1,45
+
+;clockTime
+1,[clockHour]:[clockMinute] [ampm]
+
+;timeOfDay
+1,monring
+1,afternoon
+1,evening
+1,night
+
+;month
+1,January
+1,February
+1,March
+1,April
+1,May
+1,June
+1,July
+1,August
+1,September
+1,October
+1,November
+1,December
+
+;season
+1,spring
+1,summer
+1,autumn
+1,winter
+
+;elementClassical
+1,air
+1,earth
+1,fire
+1,water
+
+;elementClassicalFive
+1,aether
+1,air
+1,earth
+1,fire
+1,water
+
+;elementEastern
+1,earth
+1,wood
+1,fire
+1,water
+1,metal
+
+;elementExalted
+1,air
+1,earth
+1,fire
+1,water
+1,wood
+
+;alignmentOdd
+1,lawful
+1,neutral
+1,chaotic
+
+;alignmentDL
+1,good
+1,neutral
+1,evil
+
+;alignmentWH
+1,chaotic
+1,evil
+1,neutral
+1,good
+1,lawful
+
+;alignmentPd
+1,pricipled
+1,scrupulous
+1,unpricipled
+1,anarchist
+1,aberrant
+1,miscreant
+1,diabolic
+
+;alignmentNinefold
+1,lawful-good
+1,lawful-neutral
+1,lawful-evil
+1,neutral-good
+1,true neutral
+1,neutral-evil
+1,chaotic-good
+1,chaotic-neutral
+1,chaotic-evil
+
+;alignmentColor
+1,black
+1,blue
+1,green
+1,red
+1,white
+
+;colorBasic
+1,red
+1,pink
+1,orange
+1,brown
+1,yellow
+1,green
+1,blue
+1,violet
+1,white
+1,grey
+1,black
+
+;colorBlack
+1,bistre
+1,charcoal
+1,coal-black
+1,corbeau
+1,ebony
+1,fuligin
+1,jet
+1,onyx
+1,pitch
+1,sable
+1,sanguoire
+
+;colorBlue
+1,aquamrine
+1,azure
+1,blue-grey
+1,cerulean
+1,cobalt
+1,indigo
+1,iris
+1,glaucous
+1,midnight
+1,navy
+1,pavonated
+1,perse
+1,periwinkle
+1,sapphire
+1,smalt
+1,turquoise
+1,ultramarine
+1,zaffre
+
+;colorBrown
+1,amber
+1,beige
+1,bistre
+1,bronze
+1,buff
+1,burnet
+1,castory
+1,chestnut
+1,chocolate
+1,coffee
+1,copper
+1,cordovan
+1,ecru
+1,fawn
+1,fulvous
+1,khaki
+1,liver
+1,mahogany
+1,russet
+1,rust
+1,sepia
+1,sienna
+1,tan
+1,taupe
+1,tawny
+1,umber
+
+;colorGreen
+1,bottle green
+1,caesious
+1,celedon
+1,chartreuse
+1,corbeau
+1,emerald
+1,feldrau
+1,jade
+1,jasper
+1,lime
+1,malachite
+1,mint green
+1,moss green
+1,myrtle
+1,olive
+1,sea green
+1,teal
+1,verdigris
+1,viridian
+
+;colorGray
+1,[colorGrey]
+
+;colorGrey
+1,ashen
+1,charcoal
+1,cesious
+1,cinerous
+1,columbine
+1,glaucous
+1,gridelin
+1,grizzeled
+1,perse
+1,silver
+1,slate
+1,taupe
+
+;colorOrange
+1,amber
+1,bittersweet
+1,bronze
+1,cinnabar
+1,copper
+1,coral
+1,gamboge
+1,jacinthe
+1,sinople
+1,topaz
+1,umber
+1,vermilion
+
+;colorRed
+1,alizarin
+1,amaranth
+1,auburn
+1,blood red
+1,brick
+1,burgandy
+1,carmine
+1,carnelian
+1,cerise
+1,cinnabar
+1,claret
+1,coquelicot
+1,coral
+1,crimson
+1,damask
+1,kermes
+1,oxblood
+1,puce
+1,rose
+1,ruby
+1,rust
+1,sanguine
+1,scarlet
+1,vermilion
+
+;colorViolet
+1,amaranth
+1,amethyst
+1,aubergine
+1,cerise
+1,claret
+1,gredelin
+1,heliotrope
+1,lavender
+1,lilac
+1,magenta
+1,mauve
+1,mulberry
+1,murex
+1,porphyrous
+1,purple
+1,rose
+1,thistle
+
+;colorWeird
+1,actinic
+1,apocyan
+1,cosmogone
+1,dolm
+1,gant
+1,irrigo
+1,jale
+1,octarine
+1,peligin
+1,smaudre
+1,ulfire
+1,violant
+1,viric
+
+;colorWhite
+1,beige
+1,bone
+1,cream
+1,eggshell
+1,ivory
+1,linen
+1,magnolia
+1,smoke
+1,snow white
+
+;colorYellow
+1,amber
+1,buff
+1,chartreuse
+1,citrine
+1,ecru
+1,fulvous
+1,gold
+1,khaki
+1,peridot
+1,primrose
+1,saffron
+1,straw
+1,sulphurous
+1,topaz
+1,xanthic
+
+;colorExtended
+1,[colorBasic]
+1,[colorBlack]
+1,[colorBlue]
+1,[colorBrown]
+1,[colorGreen]
+1,[colorGrey]
+1,[colorOrange]
+1,[colorRed]
+1,[colorViolet]
+1,[colorWhite]
+1,[colorsYellow]
+1,[colorWeird]
+
+;color
+1,[colorBasic]
+1,[colorExtended]
+
+;merchandise
+8,[merchandiseCommon]
+1,[merchandisePrecious]
+
+;merchandiseBasic
+1,grain and vegetables
+1,fish
+1,timber
+1,fuel
+1,livestock
+1,salt
+1,drink
+1,oil
+1,textiles
+1,furs and leather
+1,common luxuries
+1,common metals
+1,cloth and clothing
+1,pottery
+1,tools
+1,arms and armor
+1,dyes and pigments
+1,glassware
+1,mounts
+1,spices
+1,silk
+1,precious metals
+1,slaves
+
+;merchandiseCommon
+1,[basicFoodstuffs]
+1,preserved [seafoodCommon]
+1,common timber
+1,[livestock]
+1,salt
+1,[drinkCommon]
+1,[oilsAndSauces]
+1,bulk [textile]
+1,hides/furs
+1,[commonLuxury]
+1,[metalCommon]
+1,woven [textile]
+1,preserved [meatCommon]
+1,[drinkFine]
+1,pottery
+1,tools
+1,arms
+1,dyes and pigments
+1,glassware
+1,[mounts]
+1,slaves
+
+;merchandisePrecious
+1,occult items
+1,rare woods
+1,rare furs
+1,[metalPrecious]
+1,ivory
+1,spices
+1,fine porcelain
+1,rare books
+1,silk
+1,precious stones
+1,[exoticLuxuries]
+
+;basicFoodstuffs
+2,[grain]
+1,[legumes]
+1,[vegetables]
+1,[fruits]
+
+;grain
+2,wheat
+1,emmer
+2,oats
+1,rye
+1,rice
+1,millet
+1,spelt
+1,[foodSeeds]
+
+;legumes
+2,lentils
+1,broad beans
+1,fava beans
+1,chickpeas
+1,peas
+1,lupines
+
+;vegetables
+0,potatoes
+1,carrots
+1,turnips
+2,cabbage
+2,onions
+2,olives
+1,capers
+
+;vegetablesFresh
+1,artichokes
+1,endives
+1,mallows
+1,lettuces
+1,leeks
+1,beets
+1,radishes
+1,turnips
+1,garlic
+1,watercress
+1,cucumber
+1,melon
+1,asparagus
+1,parsnips
+
+;nuts
+1,chestnuts
+1,walnuts
+1,almonds
+1,hazelnuts
+1,pistachios
+1,pinenuts
+
+;foodSeeds
+1,sesame seeds
+1,fenugreek seeds
+1,poppy seeds
+1,mustard seeds
+
+;fruits
+1,apples
+1,pears
+1,peaches
+1,medlars
+1,figs
+1,dates
+1,quince
+1,cherries
+1,grapes
+1,plums
+1,peaches
+1,apricots
+1,pomegranates
+1,rosehips
+1,mulberries
+
+;fruit
+1,apple
+1,pear
+1,medlar
+1,fig
+1,date
+1,quince
+1,cherry
+1,grape
+1,plum
+1,peach
+1,apricot
+1,pomegranate
+1,rosehip
+1,mullberry
+
+;seafoodCommon
+1,smelts
+1,anchovies
+1,cockles
+1,snails
+1,eels
+1,sardines
+1,oysters
+1,clams
+1,cod
+1,urchins
+1,muscles
+
+;seafoodFine
+1,mullet
+1,pike
+
+;livestock
+1,pigeons
+1,rabbits
+1,chickens
+1,ducks
+1,geese
+1,sheep
+1,pigs
+1,goats
+1,cattle
+
+;mounts
+2,horses
+1,warhorses
+1,camels
+1,donkeys
+1,mules
+
+;drinkCommon
+2,wine
+1,ale
+1,beer
+1,cider
+1,mead
+
+;drinkFine
+1,spiced wine
+1,rose wine
+1,fine wine
+1,[fruit] brandy
+1,perry
+
+;oilsAndSauces
+1,tallow
+3,olive oil
+1,grapeseed oil
+1,rapeseed oil
+1,lard
+1,butter
+2,fish sauce
+1,mustard
+1,vinegar
+1,honey
+1,must syrup
+1,date syrup
+
+;meatCommon
+3,pork
+1,beef
+1,chevon
+2,mutton
+1,rabbit
+
+;meatGame
+1,venison
+1,boar
+1,hare
+1,pheasant
+1,quail
+
+;meatFine
+1,dormice
+1,peacock
+1,pigeon
+1,lamb
+1,veal
+1,kid
+1,suckling pig
+
+;spiceCommon
+1,basil
+1,bay
+1,caraway
+1,celery
+1,chives
+1,dill
+1,fennel
+1,garlic
+1,lavender
+1,rose
+1,mint
+1,mustard
+1,oregano
+1,parsley
+1,rosemary
+1,sage
+1,savory
+1,tarrgon
+1,thyme
+
+;spiceFine
+1,anise
+1,cinnamon
+1,cloves
+1,ginger
+1,mace
+1,pepper
+
+;spiceRare
+1,saffron
+
+;textile
+1,linen
+2,wool
+1,hemp
+
+;commonLuxury
+1,tea
+1,coffee
+1,tobacco
+1,hashish
+
+;exoticLuxuries
+1,ambergris
+1,frankincense
+1,benzoin
+1,myrrh
+1,labdanum
+1,opium
+
+;metalCommon
+1,lead
+1,iron
+1,copper
+1,bronze
+1,brass
+1,tin
+1,pewter
+
+;metalPrecious
+5,silver
+1,electrum
+2,gold
+
+;metalSoft
+1,copper
+1,silver
+1,gold
+1,lead
+1,pewter
+1,tin
+1,bronze
+1,electrum
+
+;metalHard
+1,steel
+1,iron
+1,bronze
+
+;hardwood
+1,oak
+1,cherry
+1,persimmon
+1,birch
+1,maple
+1,ash
+1,alder
+1,apple
+1,beech
+1,chestnut
+1,hickory
+1,olive
+1,boxwood
+
+;softwood
+1,pine
+1,spruce
+1,fir
+1,cedar
+1,poplar
+1,willow
+1,yew
+
+;woodRare
+1,redwood
+1,teak
+1,ebony
+1,mahogany
+1,ironwood
+1,rosewood
+1,sandalwood
+1,cypress
+
+;hornAntlerTooth
+1,stag antler
+1,ox horn
+1,ram horn
+1,goat horn
+1,toroise shell
+1,boar tusk
+1,cattle horn
+1,elk antler
+1,deer antler
+1,antelope horn
+1,moose antler
+
+;ivory
+1,elephant tusk
+1,walrus tusk
+1,mammoth tusk
+1,narwhal horn
+1,unicorn horn
+1,hippopotamus tooth
+1,dragon tooth
+
+;leatherType
+1,calfskin
+1,buckskin
+1,cowhide
+1,sheepskin
+1,goathide
+1,pigskin
+1,horse hide
+1,camel hide
+
+;furCommon
+1,rabbit
+1,beaver
+1,fox
+1,badger
+1,otter
+1,mink
+1,wolf
+1,seal
+1,stoat
+1,wolverine
+1,marten
+1,seal
+
+;furLarge
+1,black bear
+1,brown bear
+1,cave bear
+1,warg
+1,lynx
+1,lion
+1,cheetah
+1,reindeer
+1,hyena
+1,gazelle
+
+;furExotic
+1,ermine
+1,polar bear
+1,tiger
+1,white wolf
+1,sable
+1,white seal
+
+;factionMajorImperial
+1,The Porphyry Throne (The Faceless Emperor, Vizier, Generals, Admirals)
+1,Hebdomad Temple (Hierarch) (Priest 12)
+1,The Imperial Navy/The Grand Admiral (Fighter 8, flamethrower ships)
+1,The Merchant Societas - a major banking and shipping concern, lead by a rich and powerful Senator (Venturer 14)
+1,Noble House X (Atreides) (any class 8)
+
+;factionMajorChthonic
+1,Chthonic Temple Alliance (Dark Priest or Max-1)
+1,Rat Cult (criminal syndicate + cult) (Thief 9 with Priests)
+1,The Last Sorcerer-King of Zahar (Undead Sorcerer 14)
+1,Noble House Y (Harkonnen; secret Chthonic cultists) (any class 8)
+1,The Slaver's Guild (coastal raiders) (Freebooter 8)
+
+;factionMajorAmbiguous
+1,Successor State Conqueror A (Odoacer) (Fighter/Warlord 10)
+1,Successor State Conqueror B (Pirate King/Queen) (Freebooter 9)
+1,other major criminal syndicate (Thief/Assassin 11)
+1,The Would-Be High King of the Dwarves (Dwarf Vault Lord Max)
+1,The Elven Matriarch (Elf Enchanter Max)
+1,Noble House Z (Successor State Heir) any class 8)
+1,Barbarian Tribes, united by a great Leader (Barbarian 12)
+1,The Rival Empire (Persian Empire)
+1,The Golden King (Great Zimbabwe)
+1,The Mob (the consumers of bread and circuses)
+
+;factionOther
+0,various temples and order of other Imperial deities
+0,various cults of other Chthonic powers
+0,various other religions - Yeshivite, Zoroastrian
+0,Temple of Assassins
+0,The Ghoul King
+0,The Hermetic Academy & Tower of Knowledge
+0,Independent Archmage
+0,The Oracle
+0,The Ice Titan
+0,The Salt Cartel
+0,The Princess Born in Purple (Warmistress, conqueror level)
+
+;factionCult
+1,Mathēmatikoi
+1,Mendicant Cynics
+1,Bacchantes
+1,Ghoul Cult
+1,Yeshivite
+1,Flame Temple
+1,Cult of the Dragon
+
+;cultElementalEvil
+1,Dagon
+1,Moloch
+1,Pazuzu
+1,Telith
+
+;factionImperialAntagonist
+1,[factionMajorChthonic]
+1,[factionMajorAmbiguous]
+1,[factionOther]
+
+;factionImperialComplicated
+1,[factionMajorAmbiguous]
+1,[factionOther]
+
+;factionChthonicAntagonist
+1,[factionMajorImperial]
+1,[factionMajorChthonic]
+1,[factionMajorAmbiguous]
+1,[factionOther]
+
+;factionChthonicComplicated
+1,[factionMajorChthonic]
+1,[factionMajorAmbiguous]
+1,[factionOther]
+
+;factionAmbiguousAntagonist
+1,[factionAny]
+
+;factionAmbigousComplicated
+1,[factionAny]
+
+;factionMajor
+1,[factionMajorImperial]
+1,[factionMajorChthonic]
+1,[factionMajorAmbiguous]
+
+;factionAny
+1,[factionMajorImperial]
+1,[factionMajorChthonic]
+1,[factionMajorAmbiguous]
+1,[factionOther]
+
+;factionName
+0,http://www.random-generator.com/index.php?title=Secret_Society_Title
+
+;factionNounAdventurers
+1,Band
+1,Brethren
+1,Brotherhood
+1,Cadre
+1,Cohort
+1,Companions
+5,Company
+1,Comrades
+1,Confraternity
+1,Fellows
+1,Fellowship
+1,Fraternity
+1,League
+1,Sisterhood
+1,Sistren
+1,Sorority
+1,Vanguard
+
+;factionNounCommercial
+1,Cartel
+1,Company
+1,Concern
+1,Consortium
+1,Enterprise
+1,Guild
+1,House
+1,League
+1,Partnership
+1,Society
+1,Syndicate
+
+;factionNounCriminal
+1,Band
+1,Brethren
+1,Brotherhood
+1,Camarilla
+1,Cartel
+1,Family
+1,Fraternity
+1,Gang
+1,Guild
+1,Outfit
+1,Sisterhood
+1,Sistren
+1,Syndicate
+
+;factionFamily
+1,Clan
+1,Family
+1,House
+
+;factionNounGeneral
+1,Band
+1,Company
+1,Family
+1,Fellowship
+1,League
+1,Society
+1,Sodality
+
+;factionNounMagical
+1,Academy
+1,Brotherhood
+1,Cabal
+1,Circle
+1,College
+1,Coterie
+1,Covenant
+1,Fraternity
+1,Order
+1,Sisterhood
+1,Tower
+
+;factionNounMilitary
+1,Band
+1,Banner
+1,Cadre
+1,Company
+1,Cohort
+1,Guard
+1,Legion
+1,Regiment
+1,Vanguard
+
+;factionNounOccult
+1,Brethren
+1,Brotherhood
+1,Cabal
+1,Camarilla
+1,Circle
+1,Coterie
+1,Coven
+1,Covenant
+1,Cult
+1,Fane
+1,Fraternity
+1,Lyceum
+1,Order
+1,Sisterhood
+1,Sistren
+1,Soroity
+1,Tower
+
+;factionNounReligious
+1,Abbey
+1,Brethren
+1,Brotherhood
+1,Convent
+1,Covenant
+1,College
+1,Communion
+1,Monastery
+1,Order
+1,Sisterhood
+1,Sistren
+1,Temple
+
+;criminalSpecialty
+1,protection racket
+1,burglary
+1,robbery
+1,assassination
+1,drug dealing/smuggling
+1,kidnapping for ransom
+1,pickpocketing
+1,arson for hire
+1,blackmail
+1,smuggling and tax evasion
+1,protitution
+1,slaving
+1,gambling
+1,fencing stolen goods
+1,loansharking
+
+;eventMannerOfDeath
+1,natural cause
+1,disease
+1,accident
+1,murder or assassination
+1,battle
+
+;eventCrime
+1,arson
+1,burglary
+1,murder
+1,serial murder
+1,kidnapping
+1,robbery
+1,grave desecration
+
+;eventUnrest
+1,bandit activity
+1,feuding
+1,injustice
+1,uprising
+1,military insurrection
+1,riot
+1,massacre
+1,witch hunt
+
+;eventMerchandiseGroup
+1,food
+1,timber
+1,animals
+1,mounts
+1,salt
+1,drink
+1,oil
+1,textiles
+1,luxuries
+1,iron
+1,bronze
+1,precious metals
+1,tools
+1,arms and armor
+1,occult materials
+
+;eventNpcType
+1,ambassador
+1,general or admiral
+1,vengeful stranger
+1,eligible bachelor/maiden/widow/widower/etc.
+1,rival adventurers
+1,missionaries or cultists
+1,merchant
+1,magician
+1,warrior
+1,criminal
+1,mercenary
+1,entertainer
+1,refugee
+1,specialist
+
+;eventMonthly
+1,discovery of a dungeon
+1,rival adventurers undertake quest
+1,party targetted by thieves
+1,rivals targeted by thieves
+1,monsters migrate into area
+1,games anncounced
+1,special religious festival announced
+1,new construction begins
+1,significant marriage announced
+1,bad weather
+1,fair weather
+1,drought
+1,rains
+1,leader retires
+1,leader dies from [eventMannerOfDeath]
+1,major fire
+1,tremors
+1,major storm
+1,building collapse
+1,sewage backup
+1,miasma
+1,warm weather
+1,cold weather
+1,arrival of merchant selling [eventMerchandiseGroup]
+1,mercenary recruiting
+1,notable [eventCrime]
+1,minor eventUnrest
+1,arrival of NPC
+1,haunting
+1,meteor
+1,arrival of [eventNpcType]
+1,departure of [eventNpcType]
+
+;annualEvent
+1,ruler dies from [eventMannerOfDeath]
+1,ruler overthrown
+1,ruler abdicates
+1,ruler marries (or has child)
+1,ruler sires/bears/adopts child
+1,war between two polities
+1,news of a major monster castle
+1,major religious festival or jubilee
+1,major construction announced
+1,major drought
+1,major flooding
+1,wildfire
+1,earthquake
+1,landslide/avalanche
+1,hurricane/typhoon/tornado
+1,major winter storm
+1,plague of vermin
+1,plague
+1,great smog
+1,tax increase
+1,tax decrease
+1,special impost
+1,military recruiting
+1,bad harvest
+1,good harvest
+1,shortage of [eventMerchandiseGroup]
+1,abundance of [eventMerchandiseGroup]
+1,notorious [eventCrime]
+1,notorious [eventUnrest]
+1,arrival of major NPC
+1,prodigy appears
+1,comet witnessed
+1,eclipse
+1,meteor shower
+1,astrological conjunction
+
+
+;lodgingComplication
+5,A hanger-on is lurking at your doorstep; apparently they're a fan (random potential henchmen, ignore if you have no reputation in the area).
+4,You receive a gift at your lodgings.
+5,Your landlord wishes to put your lodgings to a different use and wishes you to leave in 1d3 months. Negated if they are friendly or you own your lodgings.
+5,Your landlord raises your rent by 2d6x10%. You can negotiate with a social interaction. Negated if you own your lodgings.
+5,Your lodgings are targeted by an amateur thief; they steal anything in an obvious hiding place or in plain view they can conceal on their person. Negated by lock, watchdog, guard, concealment, or vigilant neighbors/landlord.
+5,Your lodgings are targeted by an amateur thief with inside information: a neighbor or employee. They steal anything in an obvious hiding place or in plain view, or that they've seen you with. Negated by lock, watchdog, guard, concealment, or vigilant neighbors/landlord.
+5,Your lodgings are targeted by vandals. They break furniture and steal anything obviously valuable in plain view. Negated by lock, watchdog, guard, concealment, or vigilant neighbors/landlord.
+5,Your lodgings are targeted by a professional thief (of random level). The thief will try to climb, sneak, pick locks, disarm traps, drug or distract dogs, search for concealed goods, and take anything portable. Play out the attempt.
+5,Your lodgings are targeted by a professional thief (of random level) and their apprentice. They will try to climb, sneak, pick locks, disarm traps, drug or distract dogs, search for concealed goods, and take anything portable. Play out the attempt.
+5,Your lodgings are searched by the city watch. They break in if necessary and everything is tossed and will need to be cleaned, and they took any contraband and loose money they find. Negated by concealment or being paid up with the watch.
+5,Your lodgings are invested with vermin (rats, fleas, bedbugs, mice, ants, flies & maggots). Negated by having servants that clean or a cat.
+5,Your lodgings are in an area plagued with vermin (rats, fleas, bedbugs, mice, ants, flies & maggots). You'll need to hire an exterminator or buy a cat or small but vicious dog.
+5,A disease has broken out around your lodgings; you are at increased risk if you remain there.
+5,Your lodgings are targeted by your enemies. They'll rough up and steal your stuff if they can. Negated if you have no local enemies, or a watchdog or sufficient guards.
+5,Your lodgings are targeted by your enemies. They attempt to plant something incriminating and alert the law. Negated if you have no local enemies.
+1,Your lodgings are targeted by a master thief (Larceny pool 15). May pay several visits to prepare the scene, create duplicates of magic items and jewelry, etc. Negated if there is no reason to believe you have anything worth stealing.
+1,Your lodgings are targeted by your enemies. They lay in wait to attempt to murder you. Negated if you have no local enemies.
+1,Your lodgings are infested by rats.
+1,Your lodgings catch fire! Negated if you live in a stone building.
+1,Your lodgings catch fire! Negated if you live in building with tiled/flagged floors and roof.
+1,Your lodgings catch fire! (Even if you live in a fire-resistant building).
+1,Your lodgings are flooded, if you live in basement or the ground floor in a low-lying area.
+1,Your lodgings are water-damaged during a storm due to a leak in the roof. Negated by active maintenance.
+1,Your lodgings are commandeered by billeted troops or VIPs. Negated if you're paid up with the local powers that be.
+1,Your lodgings are condemned by the city due to non-payment of debt or back taxes. Negated if you own them outright and are paid up.
+1,Your lodgings are targeted by a larcenous magician with several useful spells. Play out the attempt.
+1,Your lodgings are targeted by shapeshifters that appear first as vermin, then attempt to steal from you. Play out the attempt.
+1,Your lodgings are targeted by dopplegangers that attempt to replace you. Play our the attempt.
+
+;rewardGenericMinor
+1,a hefty pouch of silver
+1,a nice gem
+1,tutoring
+1,a minor magic item
+1,a book of arcane lore
+1,favors
+1,assistance from a minor spellcaster
+
+;rewardGenericMajor
+1,a hefty sack of coin
+1,a brilliant gem
+1,secret knowledge
+1,a barony
+1,great favors
+1,assistance from a mighty spellcaster
+
+;rewardGenericLegendary
+1,a king's ransom in gold
+1,the crown jewels
+1,a legendary jewel
+1,the ear of an emporer
+1,the hand of a prince/princess
+1,lost and forgotten knowledge
+1,an exarchate
+1,a genuine divine miricle
+
+;macguffinGemNoun
+1,Carbuncle
+1,Pearl
+1,Stone
+1,Jewel
+1,Gem
+1,Gemstone
+1,Crystal
+1,Star
+1,Flame
+1,Eye
+1,Orb
+1,Heart
+1,Egg
+
+;macguffinGemAdjective
+1,of Inestimable Beauty
+1,of Prophecy
+1,of Kings
+1,of the Mountain
+1,of Empire
+1,of Conquest
+1,of the [directionUC]
+1,of [ostentatiousTitle]"];
+
+;macguffinGem
+1,[macguffinGemNoun] [macguffinGemAdjective]
+1,The [macguffinTitleAny]'s [macguffinGemNoun]
+
+;macguffinProphecy
+1,Prediction
+1,Prophecy
+1,Revelation
+1,Prodigies
+1,Dooms
+
+;macguffinBook
+1,Grimoire
+1,Lore
+1,Scrolls
+1,Codex
+1,Tablets
+1,Runes
+
+;macguffinMagicTool
+1,Robe
+1,Wand
+1,Rod
+1,Staff
+1,Ring
+1,Mirror
+1,Talisman
+1,Cauldron
+
+;macguffinMaterial
+1,Gold
+1,Silver
+1,Jade
+1,Iron
+1,Ivory
+1,Hepatizon
+1,Orichalcum
+
+;macguffinFurniture
+1,Altar
+1,Chariot
+1,Figurehead
+1,Font
+1,Obelisk
+1,Sarcophagus
+1,Statue
+1,Stelae
+1,Throne
+
+;macguffinRegalia
+1,Crown
+1,Diadem
+1,Key
+1,Scepter
+1,Orb
+1,Sword
+1,Ring
+1,Seal
+
+;macguffinArms
+1,Sword
+1,Lance
+1,Blade
+1,Spear
+1,Lance
+1,Mace
+1,Hammer
+1,Bow
+1,Shield
+1,Axe
+1,Hammer
+1,Armor
+1,Breastplate
+1,Helm
+1,Panoply
+
+;macguffinClothing
+1,Cloak
+1,Girdle
+1,Mantle
+1,Mask
+1,Veil
+
+;macguffinRelic
+1,Skull
+1,Hand
+1,Tongue
+1,Eye
+1,Heart
+1,Shroud
+
+;macguffinInstrument
+1,Drum
+1,Flute
+1,Horn
+1,Lyre
+
+;macguffinCollection
+1,Regalia
+1,Panoply
+2,Hoard
+2,Treasure
+1,Library
+
+;macguffinSensual
+1,Fetters
+1,Collar
+1,Cinculum
+1,Shackles
+1,Rink
+1,Belt
+1,Girdle
+1,Scourge
+1,Whip
+1,Clasps
+1,Lingam
+1,Phallus
+1,Veil
+1,Veils
+
+;titleMagical
+1,Arcanist
+1,Archmage
+1,Enchanter
+1,Enchantress
+1,Magician
+1,Necromancer
+1,Occultist
+1,Sorcerer
+1,Sorceress
+1,Spellbinder
+1,Theurgist
+1,Warlock
+1,Witch
+1,Wizard
+
+;titleProphet
+1,Astrologer
+1,Augur
+1,Diviner
+1,Doomspeaker
+1,Harbinger
+1,Oracle
+1,Prophet
+1,Pythoness
+1,Seer
+1,Seeress
+1,Sibyl
+
+;titleReligious
+1,Abbess
+1,Abbot
+1,Anchorite
+1,Ascetic
+1,Episcopos
+1,Exorcist
+1,Fanatic
+1,Flamen
+1,Hierodule
+1,Hierophant
+1,High Priest
+1,High Priestess
+1,Matriarch
+1,Mendicant
+1,Monk
+1,Nun
+1,Patriarch
+1,Pontifex
+1,Prelate
+1,Priest
+1,Priestess
+1,Theocrat
+1,Sacred Courtesan
+1,Shaman
+1,Vestal
+1,Votary
+1,Zealot
+
+1,titleCriminal
+1,Assassin
+1,Blackguard
+1,Corsair
+1,Executioner
+1,Master Burglar
+1,Master Thief
+1,Prince of Thieves
+1,Reaver
+1,Sea-King
+1,Sea-Queen
+1,Torturer
+
+;titleWarrior
+1,Amazon
+1,Avenger
+1,Champion
+1,Conqueror
+1,Destroyer
+1,Despoiler
+1,Gladiator
+1,Guardian
+1,Hero
+1,Heroine
+1,Justicar
+1,Mercenary
+1,Myrmidon
+1,Paldin
+1,Slayer
+1,Warrior
+1,Warlord
+
+;titleNoble
+1,King
+1,Queen
+1,Emporer
+1,Empress
+1,King of Kings
+1,High King
+1,Queen of Queens
+1,High Queen
+1,Overlord
+
+1,titleSensual
+1,Bayadere
+1,Catamite
+1,Concubus
+1,Courtesan
+1,Ecdysiast
+1,Fornicator
+1,Hierodule
+1,Houri
+1,Incubus
+1,Libertine
+1,Odalisque
+1,Siren
+1,Succubus
+1,Sybarite
+1,Temptor
+1,Temptress
+1,Tribade
+1,Voluptuary
+
+;macguffinTitleModfier
+1,Lost
+1,First
+1,Last
+1,Dwarven
+1,Elfin
+
+;macguffinTitleMystic
+1,[titleMagical]
+1,[titleProphet]
+1,[titleReligious]
+
+;macguffinTitleAny
+1,[titleMagical]
+1,[titleProphet]
+1,[titleReligious]
+2,[titleWarrior]
+2,[titleNoble]
+1,[titleSensual]
+0,http://www.random-generator.com/index.php?title=Carcosan_Titles
+
+;macguffin
+1,The [maybeAdjectiveEvocative][macguffinMaterial] [macguffinFurniture] of the [maybeAdjectiveEvocative][macguffinTitleAny]
+1,The [maybeAdjectiveEvocative][macguffinRelic] of the [maybeAdjectiveEvocative][macguffinTitleAny]
+1,The [macguffinMaterial] [macguffinArms] of the [maybeAdjectiveEvocative][macguffinTitleAny]
+1,The [maybeAdjectiveEvocative][macguffinArms] of the [maybeAdjectiveEvocative][titleWarrior]
+1,The [maybeAdjectiveEvocative][macguffinRegalia] of the [maybeAdjectiveEvocative][macguffinTitleAny]
+1,The [macguffinMaterial] [macguffinRegaila] of the the [maybeAdjectiveEvocative][titleNoble]
+1,The [maybeAdjectiveEvocative][macguffinInstrument] of the [maybeAdjectiveEvocative][macguffinTitleAny]
+1,The [maybeAdjectiveEvocative][macguffinClothing] of [maybeAdjectiveEvocative][macguffinTitleAny]
+1,The [macguffinGem]
+1,The [maybeAdjectiveEvocative][macguffinBook] of [maybeAdjectiveEvocative][macguffinTitleMystic]
+1,The [maybeAdjectiveEvocative][macguffinProphecy] of [maybeAdjectiveEvocative][titleProphet]
+1,The [maybeAdjectiveEvocative][macguffinProphecy]-[macguffinBook] of [maybeAdjectiveEvocative][macguffinTitleMystic]
+1,The [maybeAdjectiveEvocative][macguffinMagicTool] of the [maybeAdjectiveEvocative][macguffinTitleMystic]
+1,The [maybeAdjectiveEvocative][macguffinCollection] of the [macguffinTitleModfier] [titleNoble]
+1,The [maybeAdjectiveEvocative][macguffinSensual] of the [maybeAdjectiveEvocative][titleSensual]
+0,wordBuckets.macguffinDivine = ["The Veil of [goddess]"];
+0,wordBuckets.macguffinMisc = ["Golden Fleece", "Sacred Ancilia", "Olive-Wood Club of Heracles", "Pharmakon of Asclepius", "Staff of Circe", "Girdle of Hippolyta", "Figurehead of the Argo", "Lyre of Orpheus", "Skin of the Nemean Lion", "Pandora's Box", "Wings of Daedalus", "Egg of the Phoenix"];
+
+;very
+1,[maybeIntensifier]
+
+;maybeIntensifier
+1,very 
+4,[intensifier] 
+15,
+
+;intensifier
+1,abundantly
+1,amazingly
+1,amazingly
+1,awfully
+1,certainly
+1,colossally
+1,considerably
+1,decidedly
+1,devilishly
+1,dreadfully
+1,empahtically
+1,especially
+1,exceedingly
+1,exceptionally
+1,excessively
+1,extraordinarily
+1,extremely
+1,fantastically
+1,fearfully
+1,frightfully
+1,fully
+1,genuinely
+1,greatly
+1,highly
+1,immensely
+1,incredibly
+1,insanely
+1,markedly
+1,mightily
+1,outrageously
+1,particularly
+1,phenomenally
+1,prodigiously
+1,quite
+1,radically
+1,rather
+1,really
+1,rediculously
+1,remarkably
+1,seriously
+1,significantly
+1,strikingly
+1,stupendously
+1,supremely
+1,supremely
+1,terribly
+1,terrifically
+1,totally
+1,tremendously
+1,truly
+1,uncommonly
+1,unqustionably
+1,veritably
+1,very
+
+;numberEvocative
+1,First
+1,Singular
+1,Three
+1,Seven
+1,Eleven
+1,Thirteen
+1,Thirty-three
+1,Seventy-two
+1,One-hundred-and-one
+1,One-hundred-forty-four
+1,One-Thousand
+1,One-Thousand and One
+1,Countless
+1,Uncountable
+1,Innumerable
+
+;maybemAdjectiveEvocative
+1,
+1,[adjectiveEvocative] 
+
+;adjectiveEvocative
+1,Abandoned
+1,Abominable
+1,Abhorrent
+1,Abysmal
+1,Accursed
+1,Achromatic
+1,Acidulous
+1,Adamant
+1,Ancient
+1,Agonizing
+1,Alabastrine
+1,Alluring
+1,Amorphous
+1,Ancestral
+1,Antediluvian
+1,Antemundane
+1,Anthropophagic
+1,Antinomian
+1,Apostate
+1,Arcane
+1,Ascetic
+1,Aureate
+1,Baleful
+1,Baroque
+1,Beguiling
+1,Bellicose
+1,Benighted
+1,Bestial
+1,Bewildering
+1,Bitter
+1,Bizarre
+1,Black
+1,Blackhearted
+1,Blaspheming
+1,Bleak
+1,Blessed
+1,Blind
+1,Bloodstained
+1,Bloody
+1,Boundless
+1,Brutal
+1,Burning
+1,Cabalistic
+1,Calamitous
+1,Cancerous
+1,Carnal
+1,Ceremented
+1,Chasmal
+1,Charnel
+1,Chimeric
+1,Choleric
+1,Chthonian
+1,Circean
+1,Clouded
+1,Colorless
+1,Consuming
+1,Corrupt
+1,Cosmic
+1,Crepuscular
+1,Crimson
+1,Crooked
+1,Cruel
+1,Crying
+1,Chthonic
+1,Cunning
+1,Cursed
+1,Cyclopean
+1,Damned
+1,Dark
+1,Darkest
+1,Deaf
+1,Deathly
+1,Debauched
+1,Decadent
+1,Decrepit
+1,Degenerate
+1,Delphic
+1,Demented
+1,Depraved
+1,Devouring
+1,Desecrated
+1,Destined
+1,Dissolute
+1,Doleful
+1,Dolorous
+1,Dour
+1,Dread
+1,Dreadful
+1,Dreaming
+1,Dying
+1,Ebony
+1,Ecstatic
+1,Eerie
+1,Effulgent
+1,Elder
+1,Eldritch
+1,Elusive
+1,Empyreal
+1,Empyrian
+1,Enrage
+1,Ensnaring
+1,Entropic
+1,Eternal
+1,Ever-changing
+1,Ever-dying
+1,Ever-young
+1,Evil
+1,Exalted
+1,Excruciating
+1,Execrable
+1,Exiled
+1,Exultant
+1,Fallen
+1,False
+1,Fanatical
+1,Fatal
+1,Fated
+1,Feculent
+1,Fecund
+1,Feral
+1,Fell
+1,Fervent
+1,Feverish
+1,Flaming
+1,Flayed
+1,Flaying
+1,Flesh-eating
+1,Foetid
+1,Forbidden
+1,Forbidding
+1,Formless
+1,Foul
+1,Frightful
+1,Frigid
+1,Frozen
+1,Ghastly
+1,Ghostly
+1,Gibbering
+1,Gilded
+1,Godless
+1,Grand
+1,Grasping
+1,Great
+1,Grinding
+1,Grim
+1,Gruesome
+1,Halcyon
+1,Harrowing
+1,Hateful
+1,Haunted
+1,Heartless
+1,Hideous
+1,Hieratic
+1,High
+1,Horrible
+1,Howling
+1,Honeyed
+1,Hungry
+1,Hunting
+1,Immaculate
+1,Incandescent
+1,Inchoate
+1,Icy
+1,Ignominious
+1,Ill-fated
+1,Immortal
+1,Imprisoned
+1,Incarnate
+1,Indesecrate
+1,Inexorable
+1,Infernal
+1,Infinite
+1,Inhuman
+1,Iniquitous
+1,Inner
+1,Insidious
+1,Inverted
+1,Invidious
+1,Insane
+1,Iridescent
+1,Ithyphallic
+1,Joyful
+1,Joyless
+1,Lachrymose
+1,Living
+1,Loathsome
+1,Lonesome
+1,Lost
+1,Low
+1,Lubricious
+1,Lurking
+1,Lustful
+1,Lusty
+1,Macabre
+1,Mad
+1,Malevolent
+1,Malefic
+1,Malign
+1,Many-eyed
+1,Many-tongued
+1,Many-souled
+1,Marble
+1,Marvelous
+1,Melancholic
+1,Menacing
+1,Meretricious
+1,Merciless
+1,Miasmal
+1,Miserable
+1,Mordant
+1,Mortal
+1,Mournful
+1,Mourning
+1,Murderous
+1,Mysterious
+1,Nameless
+1,Nightmarish
+1,Noisome
+1,Obscene
+1,Occult
+1,Ominous
+1,Ophidian
+1,Outer
+1,Pallid
+1,Pellucid
+1,Pernicious
+1,Perverse
+1,Phantasmagoric
+1,Phlegethonian
+1,Piercing
+1,Porphyritic
+1,Primordial
+1,Prismatic
+1,Profane
+1,Puissant
+1,Quintessent
+1,Rancorous
+1,Ravenous
+1,Recondite
+1,Regnant
+1,Ripping
+1,Royal
+1,Rubicund
+1,Sadistic
+1,Salacious
+1,Sanguine
+1,Saturnine
+1,Scarlet
+1,Senescent
+1,Scorned
+1,Scornful
+1,Screaming
+1,Servile
+1,Shadowed
+1,Sighing
+1,Silent
+1,Sinister
+1,Slaying
+1,Sleeping
+1,Slumbering
+1,Smoking
+1,Sordid
+1,Soulless
+1,Spectral
+1,Spiteful
+1,Squamous
+1,Stalking
+1,Stary
+1,Strange
+1,Steel
+1,Stillborn
+1,Stygian
+1,Suffering
+1,Supernal
+1,Supreme
+1,Tainted
+1,Tenebrous
+1,Terrible
+1,Terrifying
+1,Tormented
+1,Tormenting
+1,Tortured
+1,Torturous
+1,True
+1,Tumultuous
+1,Twilight
+1,Twisted
+1,Ultramundane
+1,Unborn
+1,Uncanny
+1,Unearthly
+1,Unholy
+1,Unknowable
+1,Unknown
+1,Unloved
+1,Unnamed
+1,Unspeakable
+1,Unutterable
+1,Variegated
+1,Veiled
+1,Verdigris
+1,Vermiculated
+1,Vexatious
+1,Vicious
+1,Vile
+1,Violescent
+1,Vitriolic
+1,Voracious
+1,Wanton
+1,Wayward
+1,Weeping
+1,Wicked
+1,Wild
+1,Withered
+1,Withering
+1,Woeful
+1,Wretched
+
+;abstractNoun
+1,Aeon
+1,Affliction 
+1,Ages
+1,Agony 
+1,Anguish 
+1,Annihilation
+1,Apocalypse 
+1,Ardor 
+1,Bliss 
+1,Calamity 
+1,Chaos 
+1,Confusion  
+1,Cruelty 
+1,Curse 
+1,Damnation 
+1,Darkness 
+1,Death
+1,Decay 
+1,Deception 
+1,Delectation 
+1,Delight 
+1,Depravity 
+1,Derangement 
+1,Desire 
+1,Desolation 
+1,Destruction 
+1,Devotion 
+1,Dischord 
+1,Disorder 
+1,Disruption 
+1,Dissolution 
+1,Doom 
+1,Dream 
+1,Ecstasy 
+1,Eternity 
+1,Euphoria 
+1,Evisceration 
+1,Excruciation 
+1,Exile
+1,Falsehood
+1,Fear 
+1,Foretelling 
+1,Fornication 
+1,Frenzy 
+1,Gloaming 
+1,Harrowing 
+1,Hopelessness 
+1,Horror
+1,Hour 
+1,Hunger 
+1,Imprisonment 
+1,Jubilation 
+1,Judgement 
+1,Laceration 
+1,Lamentation 
+1,Lethargy 
+1,Liberation 
+1,Lies 
+1,Madness 
+1,Malice 
+1,Mania 
+1,Melancholy 
+1,Menace 
+1,Mercy 
+1,Midnight 
+1,Misery 
+1,Mourning 
+1,Murder 
+1,Mystery 
+1,Nepenthe 
+1,Night 
+1,Nightmare 
+1,Nothingness 
+1,Oblivion
+1,Omen 
+1,Pain 
+1,Pandemonium 
+1,Panic 
+1,Passion 
+1,Pestilence 
+1,Plague 
+1,Pleasure 
+1,Potency 
+1,Prophecy 
+1,Rapture 
+1,Reflection 
+1,Ruin 
+1,Seclusion 
+1,Secrets 
+1,Shadow
+1,Silence
+1,Slumber
+1,Sorrow 
+1,Sting 
+1,Storm 
+1,Strife 
+1,Suffering
+1,Transfixion 
+1,Terror 
+1,Torment 
+1,Torture 
+1,Trevail 
+1,Tribulation  
+1,Vision 
+1,War 
+1,Wickedness
+1,Wind
+1,Woe 
+1,Word 
+1,Wound 
+1,Wraith 
+1,Zeal
+
+;fictionGenre
+1,[otherGenre]
+1,[fictionMode] poetry
+1,[fictionMode] drama
+1,[fictionMode] prose
+1,[fictionMode] history
+1,[fictionMode] legends
+
+;otherGenre
+1,lyric poetry
+1,elegaic poetry
+1,rhapsody
+1,odes
+1,hymns
+1,myths
+1,fables
+1,proverbs
+
+;personalGenre
+1,meditations
+1,memoirs
+1,letters
+1,biography
+1,speeches
+1,diary
+
+;fictionMode
+1,tragic
+1,tragicomic
+1,comedic
+1,romantic
+1,erotic
+1,epic
+1,thematic
+1,mythic
+1,satiric
+1,ironic
+1,pastoral
+1,didactic
+1,allegoric
+
+;nounBook
+1,album 
+1,almanac 
+1,anthology 
+1,atlas 
+1,bestiary 
+1,binding 
+1,biography 
+1,book 
+1,catalog 
+1,catechism 
+1,codex 
+1,compendium 
+1,copybook 
+1,decree 
+1,diary 
+1,duodecimo 
+1,enchiridion 
+1,encyclopedia 
+1,epistle 
+1,essay 
+1,folio 
+1,formulary 
+1,grimoire 
+1,hagiography 
+1,handbook 
+1,hymnal 
+1,incunabulum 
+1,inscription 
+1,journal 
+1,lay 
+1,lexicon 
+1,librum 
+1,manual 
+1,manuscript 
+1,miscellany 
+1,monograph 
+1,omnibus 
+1,onomasticon 
+1,octavo 
+1,opuscule 
+1,pages 
+1,papyrus 
+1,pell 
+1,pharmacopeia 
+1,plates 
+1,portfolio 
+1,primer 
+1,quarto 
+1,reader  
+1,scroll 
+1,tablet 
+1,tome 
+1,treatise 
+1,vade mecum
+1,volume 
+1,workbook 
+
+;nounSubject
+1,Abomination
+1,Amazon
+1,Anchorite
+1,Angel
+1,Ascetic
+1,Assassin
+1,Avatar
+1,Barbarian
+1,Beast
+1,Bird
+1,Blackguard
+1,Blasphemer
+1,Bride
+1,Bridegroom
+1,Cabalist
+1,Cenobite
+1,Chatelaine
+1,Child
+1,Conqueror
+1,Corruptor
+1,Courtesan
+1,Damned
+1,Deceiver
+1,Demigod
+1,Demiurge
+1,Daemon
+1,Deceiver
+1,Demon
+1,Devil
+1,Diabolist
+1,Doombringer
+1,Doomspeaker
+1,Dreamer
+1,Enchanter
+1,Enchantress
+1,Eremite
+1,Exemplar
+1,Exile
+1,Exorcist
+1,Fallen
+1,Fanatic
+1,Fiend
+1,God
+1,Goddess
+1,Ghost
+1,Harlot
+1,Hedonist
+1,Hero
+1,Heretic
+1,Hound
+1,Houri
+1,Incubus
+1,King
+1,Knight
+1,Lady
+1,Libertine
+1,Lord
+1,Maiden
+1,Malefactor
+1,Man
+1,Maniac
+1,Medium
+1,Mendicant
+1,Messenger
+1,Monk
+1,Monster
+1,Murderer
+1,Myrmidon
+1,Necromancer
+1,Nun
+1,Oppressor
+1,Oracle
+1,Outcast
+1,Pariah
+1,Patrician
+1,Prince
+1,Princess
+1,Profligate
+1,Prophet
+1,Prophetess
+1,Queen
+1,Rake
+1,Saint
+1,Savant
+1,Savior
+1,Scion
+1,Scorpion
+1,Sea-King
+1,Sea-Queen
+1,Seducer
+1,Seductress
+1,Seer
+1,Seeress
+1,Serpent
+1,Servant
+1,Sibyl
+1,Sinner
+1,Siren
+1,Slave
+1,Slayer
+1,Sleeper
+1,Spectre
+1,Spider
+1,Spirit
+1,Sorcerer
+1,Sorceress
+1,Soul
+1,Succubus
+1,Swordmaster
+1,Sybarite
+1,Termagant
+1,Thief
+1,Tormentor
+1,Voluptuary
+1,Warlock
+1,Warlord
+1,Warrior
+1,Whore
+1,Witch
+1,Woman
+1,Youth
+1,Zealot
+
+;nounPlace
+1,Abbey
+1,Abyss
+1,Adytum
+1,Arena
+1,Asylum
+1,Basilica
+1,Battlefield
+1,Cairn
+1,Cavern
+1,Castle
+1,Catacomb
+1,Cathedral
+1,Cenotaph
+1,Chambers
+1,Chancel
+1,Chantry
+1,Chapel
+1,Citadel
+1,Cloister
+1,Convent
+1,Court
+1,Crag
+1,Crypt
+1,Demesne
+1,Dungeon
+1,Dunjon
+1,Fane
+1,Fortress
+1,Gateway
+1,Grave
+1,Grotto
+1,Hall
+1,Haven
+1,Hell
+1,House
+1,Inferno
+1,Island
+1,Labyrinth
+1,Land
+1,Limbo
+1,Manse
+1,Mansion
+1,Mausoleum
+1,Maze
+1,Mire
+1,Mirror
+1,Monastery
+1,Monolith
+1,Necropolis
+1,Netherworld
+1,Oubliette
+1,Ossuary
+1,Pagoda
+1,Phrontistery
+1,Pit
+1,Prison
+1,Purgatory
+1,Refuge
+1,Sacellum
+1,Sanctum
+1,Seclusium
+1,Sepulcher
+1,Sea
+1,Shrine
+1,Spire
+1,Tabernacle
+1,Temple
+1,Tomb
+1,Tombstone
+1,Tower
+1,Umbra
+1,Underworld
+1,Vault
+1,Void
+1,Vortex
+1,Wasteland
+1,Wastes
+1,Wilderness
+1,Ziggurat
+
+;discussionTopic
+1,a bawdy joke
+1,a controversial opinion
+1,a favorite tale of a hero of old
+1,a foolish childhood dream
+1,a foreign culture
+1,a formative event in life
+1,a game
+1,a historic battle
+1,a hope for the future
+1,a human party trick
+1,a long journey
+1,a monster
+1,a notorious crime
+1,a painful memory
+1,a personal hardship
+1,a personal triumph
+1,a pet peeve
+1,a planned romantic encounter
+1,a planned sexual conquest
+1,a regret or mistake
+1,a romantic encounter
+1,a romantic rival
+1,a sexual conquest
+1,an interaction with a stranger
+1,an internal struggle
+1,an irrational fear
+1,an upcoming festival
+1,arena bouts
+1,army stories
+1,astrology
+1,beauty
+1,beekeeping
+1,being in over their head
+1,betrayal
+1,board games
+1,brewing
+1,chariot racing
+1,cheating at dice
+1,childhood rabble-rousing
+1,coffee
+1,collecting
+1,debts
+1,deception
+1,dowsing
+1,drinking
+1,drugs
+1,employment
+1,everything going wrong
+1,failure
+1,fanciful natural history
+1,farcical natural history
+1,fashion/clothing
+1,fishing
+1,fly tying
+1,furniture building
+1,gambling
+1,gambling debts
+1,gardening
+1,genealogy
+1,gold panning
+1,good & evil
+1,good fortune
+1,gossip about local priests
+1,grant politics
+1,hair braiding
+1,hard luck
+1,heartbreak
+1,horse racing
+1,ingenuity
+1,jealousy
+1,juggling
+1,justice
+1,leather working
+1,local politics
+1,losing something important
+1,love
+1,magic
+1,merits of various local eateries
+1,merits of various potential romantic encounters
+1,merits of various prostitutes
+1,merits of various wenches and/or serving boys
+1,money
+1,music
+1,natural history
+1,one of your hobbies
+1,other cultures
+1,painting
+1,palmistry
+1,pit fighting
+1,prejudice
+1,rebellion
+1,recent events
+1,religion
+1,revenge
+1,seeing something they shouldn’t have
+1,smoking
+1,something in life they would do differently
+1,something in life they would like to do over
+1,something they will never do again
+1,stone skipping
+1,survival
+1,sword swallowing
+1,tales of extraordinary drunkenness
+1,taxidermy
+1,teamwork
+1,the beauty of a famous courtesan
+1,the best day of their life
+1,the best meal they ever had
+1,the death of a notorious criminal
+1,the discipline of children
+1,the discipline of slaves
+1,the feats of a notorious criminal
+1,the greatest prank they ever pulled/witnessed
+1,the merits of various wines
+1,the nature of law
+1,the nature of men and women
+1,the nature of morality
+1,the pathetic affections of a customer of a local prostitute
+1,the proceeds of a notorious crime
+1,the rumored depravity of a customer of a local prostitute
+1,the rumored depravity of a supposed partner of a wench or serving boy
+1,the rumored depravity of the patron of a famous courtesan
+1,the rumored poor performance of a customer of a local prostitute
+1,the rumored poor performance of a supposed partner of a wench or serving boy
+1,the sewers
+1,the strangest thing they've ever eaten
+1,the weather
+1,the worst day of their life
+1,the worst meal they ever had
+1,their family
+1,their friendship
+1,their most frightening experience
+1,their mothers
+1,their personal philosophy
+1,treasure hunting
+1,trust
+1,wenching
+1,what they would do if they were in charge
+1,whether tanners can still smell
+1,whittling
+1,who makes the best pickles
+1,whoring
+1,your passion
+
+;terribleExecution
+1,abandoned in a dungeon cell 
+1,beaten to death 
+1,hung by the toes and bled out
+1,subjected to the blood-eagle
+1,boiled alive in a cauldron of water
+1,broken on the wheel 
+1,bound on the shore to be drowned by the tide
+1,burned at the stake
+1,roasted in a brazen bull
+1,burned in the furnace of an idol of flames
+1,buried alive
+1,buried neck deep and left to die  
+1,cast from a cliff 
+1,cast into a pit of green slime 
+1,cast into a pit of serpents 
+1,cast into volcano 
+1,cast into a portal
+1,cast into the open sea 
+1,crucified 
+1,crushed by great beast
+1,crushed by idol 
+1,rushed by machine or mill
+1,pressed by stones until death
+1,decapitated
+1,beheaded 
+1,defenestrated
+1,devoured by crocodiles
+1,devoured by insects
+1,devoured by ooze 
+1,devoured by wild beasts
+1,disemboweled
+1,eviscerated 
+1,dismembered
+1,made to swallow acid
+1,made to swallow poison
+1,dripped with green slime
+1,drowned
+1,forcibly drowned in a vessel of water
+1,eaten alive by ghouls
+1,exposed to the desert sun
+1,exposed bound in a wild place
+1,exposed to the cold of winter
+1,bound alive and exposed to vultures
+1,slain by hot irons pushed through the eyes
+1,flayed alive
+1,flung against a wall by a siege engine
+1,struck by a boulder thrown by a siege engine
+1,forced into labyrinth or dungeon
+1,forced to fight in arena
+1,gibbetted
+1,hammered to death with mauls
+1,hanged
+1,strangled
+1,hanged slowly
+1,immured
+1,impaled
+1,impaled by a hot iron
+1,left as offering to a great monster to be consumed
+1,made to swallow molten metal
+1,mummified while still alive
+1,nailed to a tree
+1,sawn in half
+1,boiled in oil
+1,set adrift at sea
+1,shot with arrows
+1,smothered 
+1,spitted and roasted
+1,stabbed in the eye
+1,stabbed in the gut
+1,stabbed in the heart
+1,staked to iron pole in a storm
+1,stoned
+1,thrown bleeding to the sharks
+1,thrown to the lions
+1,torn apart by angry mob
+1,torn apart by horses
+1,torn apart by machines
+1,turned to stone
+1,trampled by beasts
+1,vivisectioned
+1,whipped to death
+1,transformed into a beast of burden
+1,transformed into a game beast and hunted
+1,transformed into an undead slave to serve for all time
+
+;symbol
+4,the image of [Symbol]
+3,the image of [Symbol], and [Symbol] within a [GeometricSymbol]
+3,the image of [Symbol], [Symbol] and [Symbol] within a [GeometricSymbol]
+3,the image of [Symbol] within a [GeometricSymbol]
+2,the symbol of [GheronUtility.OrganizationSymbol]
+2,the symbol of [GheronUtility.DeitySymbol]
+2,the image of [Symbol], and [Symbol] [SymbolEnding] within a [GeometricSymbol]
+2,the image of [Symbol], and [Symbol] [SymbolEnding]
+2,the image of [Symbol], and [Symbol]
+2,the image of [Symbol], [Symbol] and [Symbol]
+
+;moreSymbols
+0,http://www.random-generator.com/index.php?title=GheronUtility
+
+;Symbol
+1,[AnimalSymbol]
+1,[CreatureSymbol]
+2,[PlantSymbol]
+2,[MiscSymbol]
+1,{{ia|[Animal.symbolicanimal]}}
+2,{{ia|[Animal.Weirdsymbol]}}
+1,runes in [RuneLanguage]
+
+;symbolHuman
+1,an open eye
+1,a half-closed eye
+1,a closed eye
+1,an eye dripping tears
+1,a face
+1,a human head
+1,a skull
+1,crossed bones
+1,a flaming skull
+1,a skeleton
+1,a heart
+1,a flaming heart
+1,an open hand
+1,a handprint
+1,a fist
+1,a face and hand making a gesture for silence
+1,a hand making the sign of the horns
+1,a hand making the sign of the fig
+1,a footprint
+
+;symbolAnimal
+1,an eagle
+1,an eagle head
+1,an eagle's talon
+1,a hawk
+1,an elephant head
+1,two intertwined snakes
+1,a writhing serpent
+1,a serpent's fang dripping venom
+1,a scorpion
+1,a scorpion's tail dripping venom
+1,a spider
+1,a spider's web
+1,a wolf
+1,a wolf's head
+1,a scarab beetle
+1,a lion
+1,a lion's head
+1,a roaring lion
+1,a ram's head
+1,a stag's head
+1,a stag
+1,a stag's horns
+1,a leaping stag
+1,a bee
+1,a hawk
+1,a goat's head
+1,a fish
+1,a diving falcon
+1,a swan
+1,a swan's wings
+1,an eagle's wings
+1,a hawk's wings
+1,a peacock
+1,a bull's head
+1,a bull
+1,a bear
+1,a bear's head
+1,a bear's pawprint
+1,a fish
+1,an octopus
+1,a serpent
+1,a hyena
+1,a jackal
+1,a tiger
+1,a lynx
+1,a cat
+1,a dog
+1,a moose's antlers
+1,a reindeer
+1,a reindeer's antlers
+1,a whale
+1,an orca
+1,a dolphin
+1,a raven
+1,a raven's eye
+1,a crow
+1,a jackdaw
+1,a songbird
+1,a rooster
+1,a claw
+1,an ant
+1,a beetle
+1,a dungbeetle
+1,a firefly
+1,an ape
+1,a fang
+1,a boar
+1,a crocodile
+1,a butterlfy
+1,a camel
+1,a cat's eye
+1,a crane
+1,a charging bull
+1,a donkey
+1,a dove
+1,a feather
+1,a heron
+1,a boar
+1,a boar's head
+1,a rabbit
+1,an antelope
+1,an antelope's head and twisting horns
+1,a fox
+1,a fox's head
+1,a monkey
+1,a monkey's paw
+1,a hedgehog
+1,a porcupine
+1,a beaver
+1,a hare
+1,a tortoise
+1,a tortoise shell
+1,a locust
+1,a fly
+1,a cormorant
+1,a bat
+1,a seagull
+1,a kingfisher
+1,a magpie
+1,a jackdaw
+1,an owl
+1,a pelican
+1,a peacock
+1,a black swan
+1,a carp
+1,a crab
+1,an eel
+1,a scallop shell
+1,a whelk
+1,a pike
+1,a conch
+1,an albatross
+1,a ladybug
+1,a toad
+1,a vulture
+1,a shark
+1,a horse
+
+;symbolMonster
+1,a burning phoenix
+1,a burning phoenix egg
+1,a dancing satyr
+1,a satyr's head
+1,a greenman's head
+1,a demonic face
+1,a four-faced demon
+1,a griffon
+1,a hippogriff
+1,a pterripi
+1,a gorgon head
+1,a hyra
+1,a rearing centaur
+1,a dancing nymph
+1,a reclining nymph
+1,a sphynx
+1,a dragon
+1,a wyrm
+1,a wyvern
+1,a unicorn
+1,a writhing sea-serpent
+1,a leviathan
+1,an ouroboros
+1,a flaming salamander
+1,a harpy
+1,a siren
+1,a hippocampus
+1,a sphinx
+1,a double-headed eagle
+1,a double-haaded bat
+1,a thunderbird
+1,a simurgh
+1,a lion-dog
+1,a horned rat
+1,a werewolf transforming
+1,a goat-headed, winged man
+1,a scarab-headed man
+1,a bird-headed, winged man
+
+;symbolPlant
+1,an oak leaf
+1,a rose
+1,a holly leaf
+1,an acorn
+1,a thorny stem
+1,a tree
+1,a laurel crown
+1,a [fruit]
+1,a cloverleaf
+1,a striken tree
+1,a palm frond
+1,a sheaf of grain
+1,a thistle
+1,a violet
+1,an olive branch
+1,a mandrake root
+1,a lotus
+1,a lily
+1,acanthus leaves
+1,a cedar
+1,an oak
+1,an olive tree
+1,an olive tree
+1,an ash tree
+1,a wreath
+1,a fly agaric mushroom
+
+;symbolObject
+1,a candle
+1,candles
+1,a hammer
+1,a sword
+1,crossed swords
+1,dice
+1,a key
+1,crossed keys
+1,the sun
+1,a setting sun
+1,a harp
+1,a ship
+1,a mask
+1,an anchor
+1,a cross
+1,an ankh
+1,an anvil
+1,an arrow
+1,a bunch of arrows
+1,an axe
+1,a coin
+1,a bent bow and arrow
+1,a book
+1,a horn
+1,a lyre
+1,a castle
+1,a tower
+1,a chain
+1,a chalice
+1,a stormcloud
+1,a club
+1,a windrose
+1,a crescent moon
+1,a full moon
+1,a new moon
+1,a half moon
+1,a crown
+1,a door
+1,a drum
+1,an eclipsed sun
+1,a gate
+1,a hearth
+1,a horseshoe
+1,knot
+1,thunderbolt
+1,mace
+1,mountain
+1,spindle
+1,scroll
+1,rainbow
+1,ring
+1,sandal
+1,scepter
+1,staff
+1,scimitar
+1,scythe
+1,sickle
+1,sword
+1,set of scales
+1,wave
+1,whip
+1,scourge
+1,a portcullis
+1,a quern
+1,a bell
+1,a broken lance
+1,a broken sword
+1,a dagger dripping blood
+1,a torch
+1,a lamp
+1,a lock
+1,a lock and key
+1,a broken key
+1,a lock and broken key
+1,an amphora
+1,a barrel
+1,a wheel
+1,an endless knot
+
+;maybeInverted
+1,inverted 
+1,
+
+;symbolGeometric
+1,an eight-pointed star
+1,a seven-pointed star
+1,a six-pointed star
+1,a five-pointed star
+1,a four-pointed star
+1,circle
+1,diamond
+1,lozenge
+1,heart
+1,hexagon
+1,pentagon
+1,pentagram
+1,heptagram
+1,hexagram
+1,triangle
+1,oval
+1,octagon
+1,square
+1,a spiral
+1,a quincunx
+1,a trefoil
+1,a triskelion
+1,a triquetra
+1,a squared circle
+1,a crossed circle
+
+;oracle
+0,http://www.random-generator.com/index.php?title=Conan_Oracle

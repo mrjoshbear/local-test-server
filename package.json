@@ -1,0 +1,22 @@
+{
+  "name": "local-test-server",
+  "version": "1.0.0",
+  "description": "Express Project for local testing of static web sites",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint src/js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Joshua Lyle <joshlyle@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
